@@ -1,0 +1,12 @@
+As you have learned from the videos, there are plenty of file formats available in the Hadoop ecosystem.
+
+Here is a brief list of extra links that may be helpful:
+
+CSV library for Python https://docs.python.org/2/library/csv.html
+JSON library for Python https://docs.python.org/2/library/json.html
+Apache Avro website http://avro.apache.org/
+RCFile paper http://web.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-11-4.pdf
+Apache Parquet website https://parquet.apache.org/
+If you happen to find any other helpful material, please post it to the forums.
+
+Cheers!

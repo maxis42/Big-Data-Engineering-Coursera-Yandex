@@ -1,0 +1,123 @@
+>> curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP)
+
+We are concerned about HTTP / HTTPS protocols
+
+>> The command is designed to work without user interaction.
+
+The command is designed to work without user interference. Thus there is no need to open a browser, type urls and download them manually.
+
+>> curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP post, SSL connections, cookies, file transfer resume, Metalink, and more… the number of features will make your head spin!
+
+The best way to understand how to use curl is to take a look at the examples (and try them at home). For example, if you want to download 5 Web pages from the internet you can do it manually: open your browser, type url, save a page, then repeat 4 more times. Or you can easily do it via the command line:
+
+
+
+# download one Website page
+
+$ curl https://www.wikipedia.org
+
+...
+
+content of the main page wikipedia.org
+
+...
+
+
+
+# download one Website page and save output to a file “wiki.html”
+
+$ curl https://www.wikipedia.org -o wiki.html
+
+... progress bar ...
+
+
+
+# download several Website pages and save to the appropriate files
+
+$ curl https://www.wikipedia.org -o wiki.html https://www.coursera.org/ -o coursera.html
+
+% Total % Received % Xferd Average Speed Time Time Time Current
+
+Dload Upload Total Spent Left Speed
+
+100 86413 100 86413 0 0 127k 0 --:--:-- --:--:-- --:--:-- 127k
+
+100 355k 100 355k 0 0 155k 0 0:00:02 0:00:02 --:--:-- 206k
+
+
+
+Imagine how much time you will save by downloading thousands of web pages this way.
+
+Two flags “-i” and “-L” are very handy for this course. They will help you to understand video materials and solve practical assignments.
+
+-i, --include
+
+Include the HTTP response headers in the output. The HTTP response headers can include things like server name, cookies, date of the document, HTTP version and more…
+
+-L, --location
+
+(HTTP) If the server reports that the requested page has moved to a different location (indicated with a Location: header and a 3XX response code), this option will make curl redo the request on the new place. If used together with -i, --include or -I, --head, headers from all requested pages will be shown.
+
+…
+
+A few examples to familiarize yourself with the usage:
+
+
+
+$ curl http://www.google.com
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+
+<H1>302 Moved</H1>
+
+The document has moved
+
+<A HREF="http://www.google.ru/?gfe_rd=cr&amp;dcr=0&amp;ei=eu-zWarFOqjD7gTYhLGoBg">here</A>.
+
+</BODY></HTML>
+
+
+
+# print headers
+
+$ curl -i http://www.google.com
+
+HTTP/1.1 302 Found
+
+Cache-Control: private
+
+Content-Type: text/html; charset=UTF-8
+
+Referrer-Policy: no-referrer
+
+Location: http://www.google.ru/?gfe_rd=cr&dcr=0&ei=qO-zWe-zL8bG7gSt5aLQAw
+
+Content-Length: 268
+
+Date: Sat, 09 Sep 2017 13:42:00 GMT
+
+
+
+<HTML>... The document has moved ...</HTML>
+
+
+
+# you can either follow redirects manually:
+
+$ curl http://www.google.ru/?gfe_rd=cr&dcr=0&ei=qO-zWe-zL8bG7gSt5aLQAw
+
+... some HTML output ...
+
+
+
+# or follow redirects automatically
+
+$ curl -L http://www.google.com
+
+... the same HTML output ...
+
+
+
+This should be the end of our gentle introduction into “curl”. By the way, do you know that you can provide “like / dislike” for any learning item? Your feedback is highly welcome as it helps us to make the content even better for you. If you have any other suggestions or ideas how to improve the content please provide them via “report problem” ---> “content improvement”.
