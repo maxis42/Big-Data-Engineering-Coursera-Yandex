@@ -40,7 +40,20 @@ get blocks and their locations in HDFS for this file, show the command without a
 get the information about any block of the file, show the command and the block locations from the output
 
 hdfs fsck /data/wiki/en_articles_part/articles-part -files -blocks -locations
-hdfs fsck /data/wiki/en_articles_part/articles-part -blockId blk_1073741825_1001
+hdfs fsck /data/wiki/en_articles_part/articles-part -blockId blk_1073741825
+Connecting to namenode via http://localhost:50070/fsck?ugi=jovyan&blockId=blk_1073741825+&path=%2Fdata%2Fwiki%2Fen_articles_part%2Farticles-part
+FSCK started by jovyan (auth:SIMPLE) from /127.0.0.1 at Fri Mar 30 12:01:14 UTC 2018
+
+Block Id: blk_1073741825
+Block belongs to: /data/wiki/en_articles_part/articles-part
+No. of Expected Replica: 1
+No. of live Replica: 1
+No. of excess Replica: 0
+No. of stale Replica: 0
+No. of decommissioned Replica: 0
+No. of decommissioning Replica: 0
+No. of corrupted Replica: 0
+Block replica on datanode/rack: c0ff2c2e2b7b/default-rack is HEALTHY
 
 
 
