@@ -6,4 +6,5 @@ ___
 ___
 
 ### [1 Big data essentials](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/)
+* [Homeworks](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Homeworks)
 * [Lectures](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Lectures/)
