@@ -32,6 +32,14 @@ hdfs dfs -chmod 640 /assignment1/test.txt
 hdfs dfs -cat /assignment1/test.txt | head -10
 hdfs dfs -mv /assignment1/test.txt /assignment1/test2.txt
 
+Correct variant:
+$ hdfs dfs -mkdir assignment1
+$ hdfs dfs -put test.txt assignment1/
+$ hdfs dfs -ls assignment1/test.txt or hdfs dfs -stat "%b %u" assignment1/test.txt
+$ hdfs dfs -chmod o-r assignment1/test.txt
+$ hdfs dfs -cat assignment1/test.txt | head -10
+$ hdfs dfs -mv assignment1/test.txt assignment1/test2.txt
+
 
 
 4.
