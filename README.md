@@ -7,6 +7,10 @@ ___
 
 ### [1 Big data essentials](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/)
 * [Homeworks](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Homeworks)
+  * [Week 1 What are BigData and distributed file systems (e. g. HDFS)](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Homeworks/Week%201%20What%20are%20BigData%20and%20distributed%20file%20systems%20(e.%20g.%20HDFS))
+  * [Week 3 Solving Problems with MapReduce (practice week)](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Homeworks/Week%203%20Solving%20Problems%20with%20MapReduce%20(practice%20week))
+  * [Week 5 Introduction to Apache Spark (practice week)](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Homeworks/Week%205%20Introduction%20to%20Apache%20Spark%20(practice%20week))
+  * [Week 6 Real-World Applications](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Homeworks/Week%206%20Real-World%20Applications)
 * [Lectures](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Lectures/)
   * [Week 1 What are BigData and distributed file systems (e. g. HDFS)](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Lectures/Week%201%20What%20are%20BigData%20and%20distributed%20file%20systems%20(e.%20g.%20HDFS))
   * [Week 2 Solving Problems with MapReduce](https://github.com/maxis42/Big-Data-Engineering-Coursera-Yandex/tree/master/1%20Big%20data%20essentials/Lectures/Week%202%20Solving%20Problems%20with%20MapReduce)
