@@ -20,6 +20,6 @@ ___
 
 ### [2 Big data analysis](/2%20Big%20data%20analysis/)
 * [Homeworks](/2%20Big%20data%20analysis/Homeworks)
-  * [Week 2 Big Data SQL: Hive (practice week)](/2%20Big%20data%20analysis/Homeworks/Week%201)
+  * [Week 2 Big Data SQL: Hive (practice week)](/2%20Big%20data%20analysis/Homeworks/Week%202)
 * [Lectures](/2%20Big%20data%20analysis/Lectures/)
   * [Week 1 Big Data SQL: Hive](/2%20Big%20data%20analysis/Lectures/Week%201)
