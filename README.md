@@ -16,3 +16,10 @@ ___
   * [Week 2 Solving Problems with MapReduce](/1%20Big%20data%20essentials/Lectures/Week%202)
   * [Week 4 Introduction to Apache Spark](/1%20Big%20data%20essentials/Lectures/Week%204)
   * [Week 6 Real-World Applications](/1%20Big%20data%20essentials/Lectures/Week%206)
+
+
+### [2 Big data analysis](/2%20Big%20data%20analysis/)
+* [Homeworks](/2%20Big%20data%20analysis/Homeworks)
+  * [Week 2 Big Data SQL: Hive (practice week)](/2%20Big%20data%20analysis/Homeworks/Week%201)
+* [Lectures](/2%20Big%20data%20analysis/Lectures/)
+  * [Week 1 Big Data SQL: Hive](/2%20Big%20data%20analysis/Lectures/Week%201)
